@@ -97,4 +97,4 @@ const mainFunctions = parallel(
 );
 exports.cleanStuff = cleanStuff;
 exports.default = series(mainFunctions, startBrowserSync, watchForChanges);
-f
+
