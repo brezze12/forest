@@ -7,6 +7,7 @@ const clearBtn = document.querySelector('.clear');
 const popup = document.querySelector('.popup');
 const closeBtn = document.querySelector('.close');
 
+//form
 const showError = (input, msg) => {
 	const formBox = input.parentElement;
 	const errorMsg = formBox.querySelector('.error-text');
