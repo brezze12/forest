@@ -1,7 +1,7 @@
 {
   "name": "forestwebsite",
   "version": "1.0.0",
-  "description": "Klient prosi, aby jego strona:",
+  "description": "Najpiekniejsze lasy na świecie",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
