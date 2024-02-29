@@ -5,6 +5,7 @@ const allNavItemsMobile = document.querySelectorAll('.mobile');
 const footerYear = document.querySelector('.footer__year');
 let sections = document.querySelectorAll('.section');
 
+//nav
 const handleNav = () => {
 	navItems.classList.toggle('nav-mobile--active');
 
@@ -17,7 +18,7 @@ const handleNav = () => {
 
 burgerBtn.addEventListener('click', handleNav);
 
-//automatyczne dodawanie roku
+//year
 const handleCurrentYear = () => {
 	const year = new Date().getFullYear();
 	footerYear.innerText = year;
@@ -25,6 +26,7 @@ const handleCurrentYear = () => {
 
 handleCurrentYear();
 
+//scrollspy
 const scrollSpy = () => {
 	sections.forEach(() => {
 		let top = window.scrollY + 92;
